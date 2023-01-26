@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
 
   <title>Frontend Mentor | Article preview component</title>
 
@@ -25,7 +25,6 @@
     <div class="card">
 
       <header class="card__header">
-        <img src="assets/images/drawers.jpg" class="card__img">
       </header>
 
       <main class="card__content">
@@ -40,21 +39,26 @@
         </p>
       </main>
 
-      <footer class="card__footer">
+      <footer class="card__footer card__footer--active">
+
         <div class="author">
           <img src="assets/images/avatar-michelle.jpg" class="author__avatar">
           <p class="author__name">Michelle Appleton</p>
           <p class="author__date"> 28 Jun 2020</p>
         </div>
+
         <div class="share">
-          <i class="share__ico">seta</i>
+          <i class="share__ico">
+            <img src="assets/images/icon-share.svg">
+          </i>
           <div class="share__social">
-            <span>Share</span>
-            <i>facebook</i>
-            <i>Titter</i>
-            <i>Pinterest</i>
+            <span class="share__text">Share</span>
+            <img src="assets/images/icon-facebook.svg" class="share__facebook">
+            <img src="assets/images/icon-twitter.svg" class="share__twitter">
+            <img src="assets/images/icon-pinterest.svg" class="share__pinterest">
           </div>
         </div>
+
       </footer>
 
     </div>
